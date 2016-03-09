@@ -1,16 +1,25 @@
-#studentInfo{
-   position:absolute;
-   top:0;
-   right:0;
-}
-#studentName, #classRank, studentGrade, #greenDot{
-  display: block;
-  
-}
-#greenDot {
-  margin-right:2em;
-}
+/* TO DO:
+-boxes with opacity
+-admin bar
+-fonts 
+-responsive content
+-george costanza cursor
+-eat cake with a bus stop fork
 
+*/
+
+/* general tags*/
+
+html{
+    cursor: url(gc.png), auto;
+}
+body{
+    background-image: url("hh.png");
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    margin: auto;
+}
 header{
   font-size: 3em;
 }
@@ -48,20 +57,21 @@ text-shadow: 2px 2px 2px blue;
 }
 
 nav {
-  width: 100%;
   float: left;
-  margin-left:6%;
-  
+  text-align: center;
+  width: 100%;
+  margin-bottom: 4em;
 }
 nav ol{
   list-style-type: none;
   display: inline;
+  margin-left: -120px;
   
 }
 
 nav li{
   display: inline;
-  padding: 2em;
+  padding: 1.5em;
 }
 
 nav a{
@@ -75,3 +85,24 @@ nav a:hover{
   text-shadow: 1.5px 1px 1px black;
 }
 
+
+
+
+/* ids*/
+ #studentInfo{
+   position:absolute;
+   top:0;
+   right:0;
+}
+#studentName, #classRank, studentGrade, #greenDot{
+  display: block;
+  
+}
+#greenDot {
+  margin-right:2em;
+}
+
+#mainContent{
+  clear:both;
+  margin: 5%;
+}
