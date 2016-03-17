@@ -3,16 +3,16 @@
 -admin bar
 -fonts 
 -responsive content
--george costanza cursor
+-costanza cursor
 -eat cake with a bus stop fork
 
 */
 
 /* general tags*/
 
-html{
+/*html{
     cursor: url(gc.png), auto;
-}
+}*/
 body{
     background-image: url("hh.png");
     background-attachment: fixed;
@@ -85,7 +85,9 @@ nav a:hover{
   text-shadow: 1.5px 1px 1px black;
 }
 
-
+p{
+  padding-bottom: 1em;
+}
 
 
 /* ids*/
@@ -105,4 +107,16 @@ nav a:hover{
 #mainContent{
   clear:both;
   margin: 5%;
+}
+
+#mainContent h2{
+  padding-top: 1em;
+}
+
+
+.column{
+  background-color: rgba( 255, 255, 255, .4 );
+  box-shadow: 0px 0px 5px 2px black;
+  padding-right: 4em;
+  padding-left: 4em;
 }
