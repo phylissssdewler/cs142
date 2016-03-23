@@ -1,0 +1,224 @@
+/* TO DO:
+-boxes with opacity
+-admin bar
+-fonts 
+-responsive content
+-costanza cursor
+-eat cake with a bus stop fork
+*/
+
+/* general tags*/
+
+/*html{
+    cursor: url(gc.png), auto;
+}*/
+body{
+    background-image: url("newbg2.png");
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    margin: auto;
+}
+header{
+  font-size: 3em;
+}
+
+header a:nth-of-type(1){
+  margin-left: 30%;
+  float: left;
+  clear: left;
+}
+header a:nth-of-type(2){
+  font-size: .3em;
+  float:left;
+  margin-left: 23%;
+
+}
+
+header h1, h1 a, h1{
+  font-family:"Broadway";
+  color: hotpink;
+  text-shadow: 2px 2px 2px blue;
+
+}
+
+h2{
+  font-family:"Broadway";
+  color: hotpink;
+  text-shadow: 2px 2px 2px blue;
+  
+}
+
+h3{
+  font-family:"Broadway";
+color: hotpink;
+text-shadow: 2px 2px 2px blue;
+}
+
+nav {
+  float: left;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 4em;
+}
+
+nav ol{
+  list-style-type: none;
+  display: inline;
+  margin-left: -120px;  
+}
+
+nav li{
+  display: inline;
+  padding: 1.5em;
+}
+
+nav a{
+  font-family:"Broadway";
+  color: hotpink;
+  text-shadow: 1.5px 1px 1px blue;
+  
+}
+
+nav a:hover{
+  text-shadow: 1.5px 1px 1px black;
+}
+
+p{
+  padding-bottom: 1em;
+}
+
+
+/* ids*/
+ #studentInfo{
+   position:absolute;
+   top:0;
+   right:0;
+}
+#studentName, #classRank, studentGrade, #greenDot{
+  display: block;
+  
+}
+#greenDot {
+  margin-right:2em;
+}
+
+#mainContent{
+  clear:both;
+  margin: 5%;
+}
+
+#mainContent h2{
+  padding-top: 1em;
+}
+
+
+.column{
+  background-color: rgba( 255, 255, 255, .4 );
+  box-shadow: 0px 0px 5px 2px black;
+  padding-right: 4em;
+  padding-left: 4em;
+}
+
+/*sick page */
+#sick .form h2 {
+    text-align: center;
+}
+
+#sick .form {
+    margin: auto;
+    width: 75%;
+}
+
+#sick form {
+    background-color: rgba( 255, 255, 255, .4 );
+    box-shadow: 0px 0px 5px 2px black;
+    font-family: "Broadway";
+    border-color: black;
+}
+
+#sick form .given input {
+    margin-left: .5em;
+}
+
+#sick form #txtComments {
+    margin-top: 1em;
+}
+
+#sick form .radio label {
+    margin-left: 5%;
+}
+
+#sick form fieldset {
+    padding: 1em;
+    border: black 2px solid;
+}
+
+#sick form .radio .steps {
+    margin-right: -.25em;
+}
+
+#sick form .given .steps {
+    margin-right: .25em;
+}
+
+#sick .attendanceRecord {
+    text-align: center;
+}
+
+#sick table {
+    background-color: rgba( 255, 255, 255, .4 );
+    box-shadow: 0px 0px 5px 2px black;
+    font-family: "Broadway";
+    padding: .5em 0em;
+    width: 75%;
+    margin: auto;
+}
+
+#sick table tr {
+    margin: .5em;
+    text-align: center;
+}
+
+#sick table td {
+    border: 1pt solid black;
+    padding: .5em;
+}
+
+#sick table th {
+    font-size: 20pt;
+    text-decoration: underline;
+    margin: .5em 0em;
+}
+
+#sick table tr:hover {
+    background-color: lightblue;
+}
+
+/* Submit */
+
+#submit {
+    font-family: "Broadway";
+}
+
+#submit form select {
+    margin-right: 1em;
+}
+
+#submit .step {
+    margin: 1em 0em;
+    background-color: rgba( 255, 255, 255, .4 );
+    box-shadow: 0px 0px 5px 2px black;
+    padding: 1em;
+    max-width: 50%;
+}
+
+#submit .step .steps {
+    margin-bottom: .5em;
+}
+
+#submit ul li {
+    margin-top: .5em;
+    list-style-type: katakana;
+}
+
