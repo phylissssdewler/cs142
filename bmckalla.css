@@ -9,9 +9,10 @@
 
 /* general tags*/
 
-/*html{
+html{
     cursor: url(gc.png), auto;
-}*/
+}
+
 body{
     background-image: url("newbg2.png");
     background-attachment: fixed;
@@ -21,25 +22,27 @@ body{
 }
 header{
   font-size: 3em;
-}
-
-header a:nth-of-type(1){
-  margin-left: 30%;
-  float: left;
-  clear: left;
-}
-header a:nth-of-type(2){
-  font-size: .3em;
-  float:left;
-  margin-left: 23%;
-
+  text-align: center;
 }
 
 header h1, h1 a, h1{
   font-family:"Broadway";
   color: hotpink;
   text-shadow: 2px 2px 2px blue;
+}
 
+header {
+    margin: 1em;
+}
+
+#classtitle {
+   width: 40%;
+   font-size: 35pt;
+}
+
+#classtitle .url{
+    float: left;
+    clear: left;
 }
 
 h2{
@@ -51,8 +54,8 @@ h2{
 
 h3{
   font-family:"Broadway";
-color: hotpink;
-text-shadow: 2px 2px 2px blue;
+  color: hotpink;
+  text-shadow: 2px 2px 2px blue;
 }
 
 nav {
@@ -60,6 +63,7 @@ nav {
   text-align: center;
   width: 100%;
   margin-bottom: 4em;
+  margin-top: 1em;
 }
 
 nav ol{
@@ -91,14 +95,20 @@ p{
 
 /* ids*/
  #studentInfo{
-   position:absolute;
-   top:0;
-   right:0;
+   position: absolute;
+   top: 1em;
+   right: 1em;
 }
+
 #studentName, #classRank, studentGrade, #greenDot{
   display: block;
   
 }
+
+#classtitle {
+    margin: auto;
+}
+
 #greenDot {
   margin-right:2em;
 }
@@ -133,7 +143,7 @@ p{
 #sick form {
     background-color: rgba( 255, 255, 255, .4 );
     box-shadow: 0px 0px 5px 2px black;
-    font-family: "Broadway";
+    font-family: sans-serif;
     border-color: black;
 }
 
@@ -196,9 +206,8 @@ p{
 }
 
 /* Submit */
-
 #submit {
-    font-family: "Broadway";
+    font-family: sans-serif;
 }
 
 #submit form select {
@@ -221,4 +230,49 @@ p{
     margin-top: .5em;
     list-style-type: katakana;
 }
+
+/* Grades */
+#grades #mainContent {
+    background-color: rgba( 255, 255, 255, .4 );
+    box-shadow: 0px 0px 5px 2px black;
+    padding: 4em;
+    margin: 2em;
+}
+
+#grades #grade {
+    padding: .5em;
+    margin: .5em 5%;
+    float: left;
+}
+
+#grades .p {
+    padding: .5em;
+    margin: .5em;
+    float: left;
+    clear: left;
+}
+
+#grades #rank {
+    float: right;
+    padding: .5em;
+    margin: .5em; 
+}
+
+#grades #mainContent .attendance {
+    float: right;
+    clear: right;
+    margin: .5em;
+}
+
+#grades #mainContent .attendance span {
+    clear: none;
+    float: none;
+    margin: 0;
+}
+
+#grades .website, #grades .tools_admin {
+    clear: both;
+}
+
+
 
