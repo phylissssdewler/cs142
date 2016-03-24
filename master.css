@@ -1,0 +1,158 @@
+/* TO DO:
+-fonts 
+-responsive content
+-eat cake with a bus stop fork
+
+*/
+
+/* general tags*/
+
+html{
+    cursor: url(gc.png), auto;
+}
+body{
+    background-image: url("newbg2.png");
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    margin: auto;
+}
+header{
+  font-size: 3em;
+}
+
+header a:nth-of-type(1){
+  margin-left: 30%;
+  float: left;
+  clear: left;
+}
+header a:nth-of-type(2){
+  font-size: .3em;
+  float:left;
+  margin-left: 23%;
+
+}
+
+header h1, h1 a, h1{
+  font-family:"Broadway";
+  color: hotpink;
+  text-shadow: 2px 2px 2px blue;
+
+}
+
+h2{
+  font-family:"Broadway";
+  color: hotpink;
+  text-shadow: 2px 2px 2px blue;
+  
+}
+
+h3{
+  font-family:"Broadway";
+color: hotpink;
+text-shadow: 2px 2px 2px blue;
+}
+
+#mainMenu {
+  float: left;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 4em;
+}
+#mainMenu ol{
+  list-style-type: none;
+  display: inline;
+  margin-left: -120px;
+  
+}
+
+#mainMenu li{
+  display: inline;
+  padding: 1.5em;
+}
+
+#mainMenu a{
+  font-family:"Broadway";
+  color: hotpink;
+  text-shadow: 1.5px 1px 1px blue;
+  
+}
+
+#mainMenu a:hover{
+  text-shadowC: 1.5px 1px 1px black;
+}
+
+p{
+  padding-bottom: 1em;
+}
+
+
+/* ids*/
+
+#adminColumn{
+  position: fixed;
+  background-image: url("atg.png");
+  background-size: 500px 500px;
+  background-repeat: no-repeat;
+  z-index: 100;
+  width: 500px;
+  height: 1000px;
+  right: 0;
+  margin-right: -300px;
+}
+
+#adminColumn:hover{
+  position: fixed;
+  margin-right: 2px;
+}
+
+#adminMenu {
+  padding-left: 11em;
+}
+
+#adminColumn ol{
+  list-style: none;
+  font-family: "Broadway";
+  color: #94D0FF;
+  text-shadow: 1px 1px 1px #C774E8;
+}
+
+#adminMenu a{
+   font-family:"Broadway";
+   color: #94D0FF;
+   text-shadow: 1px 1px 1px #C774E8;
+}
+
+#adminColumn p{
+  display: none;
+}
+
+ #studentInfo{
+   position:absolute;
+   top:0;
+   right:0;
+}
+#studentName, #classRank, studentGrade, #greenDot{
+  display: block;
+  
+}
+#greenDot {
+  margin-right:2em;
+}
+
+#mainContent{
+  clear:both;
+  margin: 5%;
+}
+
+#mainContent h2{
+  padding-top: 1em;
+}
+
+
+.column{
+  background-color: rgba( 255, 255, 255, .4 );
+  box-shadow: 0px 0px 5px 2px black;
+  padding-right: 4em;
+  padding-left: 4em;
+}
