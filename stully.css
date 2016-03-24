@@ -9,11 +9,11 @@
 
 /* general tags*/
 
-/*html{
+html{
     cursor: url(gc.png), auto;
-}*/
+}
 body{
-    background-image: url("hh.png");
+    background-image: url("newbg2.png");
     background-attachment: fixed;
     background-size: cover;
     max-width: 100%;
@@ -123,7 +123,7 @@ p{
 #vcalendar {
    border-collapse: collapse;
    margin: auto;
-  background-color: rgba( 255, 255, 255, .4 );
+  background-color: rgba( 255, 255, 255, .6 );
     box-shadow: 0px 0px 5px 2px black;
 }
 
@@ -131,9 +131,27 @@ p{
 td{
   border: 1px solid black;
   text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 1pt;
 }
 /* 
     Created on : Feb 26, 2016, 2:04:03 PM
     Author     : SamTully
 */
 
+tr.monthHeader{
+    border-top: 10px solid;
+    border-color: rgba(0,0,0,.4);
+    font-family: sans-serif;
+    letter-spacing: 1pt;
+}
+
+thead{
+    font-family: sans-serif;
+    letter-spacing: 1pt;
+}
+
+th{
+    font-family: sans-serif;
+    letter-spacing: 1pt;
+}
