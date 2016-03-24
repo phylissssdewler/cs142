@@ -1,20 +1,17 @@
 /* TO DO:
--boxes with opacity
--admin bar
 -fonts 
 -responsive content
--costanza cursor
 -eat cake with a bus stop fork
 
 */
 
 /* general tags*/
 
-/*html{
+html{
     cursor: url(gc.png), auto;
-}*/
+}
 body{
-    background-image: url("hh.png");
+    background-image: url("newbg2.png");
     background-attachment: fixed;
     background-size: cover;
     max-width: 100%;
@@ -56,33 +53,33 @@ color: hotpink;
 text-shadow: 2px 2px 2px blue;
 }
 
-nav {
+#mainMenu {
   float: left;
   text-align: center;
   width: 100%;
   margin-bottom: 4em;
 }
-nav ol{
+#mainMenu ol{
   list-style-type: none;
   display: inline;
   margin-left: -120px;
   
 }
 
-nav li{
+#mainMenu li{
   display: inline;
   padding: 1.5em;
 }
 
-nav a{
+#mainMenu a{
   font-family:"Broadway";
   color: hotpink;
   text-shadow: 1.5px 1px 1px blue;
   
 }
 
-nav a:hover{
-  text-shadow: 1.5px 1px 1px black;
+#mainMenu a:hover{
+  text-shadowC: 1.5px 1px 1px black;
 }
 
 p{
@@ -91,6 +88,45 @@ p{
 
 
 /* ids*/
+
+#adminColumn{
+  position: fixed;
+  background-image: url("atg.png");
+  background-size: 500px 500px;
+  background-repeat: no-repeat;
+  z-index: 100;
+  width: 500px;
+  height: 1000px;
+  right: 0;
+  margin-right: -300px;
+}
+
+#adminColumn:hover{
+  position: fixed;
+  margin-right: 2px;
+}
+
+#adminMenu {
+  padding-left: 11em;
+}
+
+#adminColumn ol{
+  list-style: none;
+  font-family: "Broadway";
+  color: #94D0FF;
+  text-shadow: 1px 1px 1px #C774E8;
+}
+
+#adminMenu a{
+   font-family:"Broadway";
+   color: #94D0FF;
+   text-shadow: 1px 1px 1px #C774E8;
+}
+
+#adminColumn p{
+  display: none;
+}
+
  #studentInfo{
    position:absolute;
    top:0;
