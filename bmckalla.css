@@ -63,7 +63,7 @@ nav {
   text-align: center;
   width: 100%;
   margin-bottom: 4em;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 nav ol{
@@ -274,5 +274,31 @@ p{
     clear: both;
 }
 
+#grades .GradesReleased, #grades .NotGraded {
+    margin-top: 4em;
+    padding: .5em;
+    border: 1pt solid black;
+    box-shadow: 0px 0px 1px 1px black;
+    width: 40%;
+    color: blue;
+    text-align: center;
+}
+
+#grades .GradesReleased a:hover {
+    color: lightcoral;
+}
+
+#grades .GradesReleased .grade {
+    color: darkorchid;
+}
+
+#grades .GradesReleased .grade .avggrade {
+    color: darksalmon;
+}
+
+#grades .comments {
+    padding: 0;
+    margin-top: 0;
+}
 
 
