@@ -156,3 +156,147 @@ p{
   padding-right: 4em;
   padding-left: 4em;
 }
+
+/*sick page */
+#sick .form h2 {
+    text-align: center;
+}
+
+#sick .form {
+    margin: auto;
+    width: 75%;
+}
+
+#sick form {
+    background-color: rgba( 255, 255, 255, .4 );
+    box-shadow: 0px 0px 5px 2px black;
+    font-family: sans-serif;
+    border-color: black;
+}
+
+#sick form .given input {
+    margin-left: .5em;
+}
+
+#sick form #txtComments {
+    margin-top: 1em;
+}
+
+#sick form .radio label {
+    margin-left: 5%;
+}
+
+#sick form fieldset {
+    padding: 1em;
+    border: black 2px solid;
+}
+
+#sick form .radio .steps {
+    margin-right: -.25em;
+}
+
+#sick form .given .steps {
+    margin-right: .25em;
+}
+
+#sick .attendanceRecord {
+    text-align: center;
+}
+
+#sick table {
+    background-color: rgba( 255, 255, 255, .4 );
+    box-shadow: 0px 0px 5px 2px black;
+    font-family: "Broadway";
+    padding: .5em 0em;
+    width: 75%;
+    margin: auto;
+}
+
+#sick table tr {
+    margin: .5em;
+    text-align: center;
+}
+
+#sick table td {
+    border: 1pt solid black;
+    padding: .5em;
+}
+
+#sick table th {
+    font-size: 20pt;
+    text-decoration: underline;
+    margin: .5em 0em;
+}
+
+#sick table tr:hover {
+    background-color: lightblue;
+}
+
+/* Submit */
+#submit {
+    font-family: sans-serif;
+}
+
+#submit form select {
+    margin-right: 1em;
+}
+
+#submit .step {
+    margin: 1em 0em;
+    background-color: rgba( 255, 255, 255, .4 );
+    box-shadow: 0px 0px 5px 2px black;
+    padding: 1em;
+    max-width: 50%;
+}
+
+#submit .step .steps {
+    margin-bottom: .5em;
+}
+
+#submit ul li {
+    margin-top: .5em;
+    list-style-type: katakana;
+}
+
+/* Grades */
+#grades #mainContent {
+    background-color: rgba( 255, 255, 255, .4 );
+    box-shadow: 0px 0px 5px 2px black;
+    padding: 4em;
+    margin: 2em;
+}
+
+#grades #grade {
+    padding: .5em;
+    margin: .5em 5%;
+    float: left;
+}
+
+#grades .p {
+    padding: .5em;
+    margin: .5em;
+    float: left;
+    clear: left;
+}
+
+#grades #rank {
+    float: right;
+    padding: .5em;
+    margin: .5em; 
+}
+
+#grades #mainContent .attendance {
+    float: right;
+    clear: right;
+    margin: .5em;
+}
+
+#grades #mainContent .attendance span {
+    clear: none;
+    float: none;
+    margin: 0;
+}
+
+#grades .website, #grades .tools_admin {
+    clear: both;
+}
