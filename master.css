@@ -188,6 +188,7 @@ p{
   padding-left: 4em;
   padding-bottom: 1em;
   padding-top: 1em;
+  
 }
 
 #media #mainContent ol{
@@ -201,12 +202,14 @@ p{
 
 
 #syllabus #mainContent {
-    background-color: rgba( 255, 255, 255, .5 );
+  background-color: rgba( 255, 255, 255, .5 );
   box-shadow: 0px 0px 5px 2px black;
   padding-right: 4em;
   padding-left: 4em;
   padding-bottom: 1em;
   padding-top: 1em;
+  font-family: sans-serif;
+  font-size: 16px;
     
 }
 
