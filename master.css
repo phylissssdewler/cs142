@@ -100,6 +100,7 @@ p{
   height: 1000px;
   right: 0;
   margin-right: -300px;
+  top: 200px;
 }
 
 #adminColumn:hover{
@@ -150,12 +151,7 @@ p{
   padding-top: 1em;
 }
 
-.column{
-  background-color: rgba( 255, 255, 255, .4 );
-  box-shadow: 0px 0px 5px 2px black;
-  padding-right: 4em;
-  padding-left: 4em;
-}
+
 
 /* assignments + lectures + resources*/
 #assignments .AssignmentsLink, #lectures .LecturesLink, #otherMedia ol  {
@@ -175,6 +171,51 @@ p{
 #otherMedia ol li figure img {
     height: 50px;
     width: 50px;
+}
+#assignments #mainContent ol{
+  background-color: rgba( 255, 255, 255, .5 );
+  box-shadow: 0px 0px 5px 2px black;
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+#lectures #mainContent ol{
+  background-color: rgba( 255, 255, 255, .5 );
+  box-shadow: 0px 0px 5px 2px black;
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+#media #mainContent ol{
+  background-color: rgba( 255, 255, 255, .5 );
+  box-shadow: 0px 0px 5px 2px black;
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+} 
+
+
+#syllabus #mainContent {
+    background-color: rgba( 255, 255, 255, .5 );
+  box-shadow: 0px 0px 5px 2px black;
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+    
+}
+
+#syllabus #mainContent li{
+    list-style-type: katakana;    
+}
+
+#syllabus #mainContent figure{
+    display: none;
 }
 
 /* calendar */
