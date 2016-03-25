@@ -20,33 +20,13 @@ body{
 header{
   font-size: 3em;
   text-align: center;
+  margin: 1em;
 }
 
 header h1, h1 a, h1{
   font-family:"Broadway";
   color: hotpink;
   text-shadow: 2px 2px 2px blue;
-}
-
-header {
-    margin: 1em;
-}
-
-#classtitle {
-   width: 40%;
-   font-size: 35pt;
-}
-
-#classtitle .url{
-    float: left;
-    clear: left;
-}
-
-header h1, h1 a, h1{
-  font-family:"Broadway";
-  color: hotpink;
-  text-shadow: 2px 2px 2px blue;
-
 }
 
 #classtitle {
@@ -72,30 +52,31 @@ h3{
 }
 
 #mainMenu {
-  float: left;
+  clear: both;
   text-align: center;
-  width: 100%;
-  margin-bottom: 4em;
-  margin-top: 1em;
+  width: 80%;
+  margin: 0 auto 4em auto;
+  padding-top: 2em;
 }
 
 #mainMenu ol{
   list-style-type: none;
-  display: inline;
-  margin-left: -120px;
-  
+  display: table;
 }
 
 #mainMenu li{
-  display: inline;
-  padding: 1.5em;
+    padding: .5em;
+    vertical-align: middle;
+    display: table-cell;
+    width: 5%;
+    background-color: rgba( 255, 255, 255, .4 );
+    border: black solid 1px;
 }
 
 #mainMenu a{
   font-family:"Broadway";
   color: hotpink;
   text-shadow: 1.5px 1px 1px blue;
-  
 }
 
 #mainMenu a:hover{
@@ -108,7 +89,6 @@ p{
 
 
 /* ids*/
-
 #adminColumn{
   position: fixed;
   background-image: url("atg.png");
@@ -213,6 +193,17 @@ p{
 
 #sick form .radio .steps {
     margin-right: -.25em;
+    float: left;
+    margin-bottom: 1em;
+}
+
+#sick form .radio .step label:nth-of-type(1) {
+    clear: left;
+}
+
+#sick form .radio label {
+    float: left;
+    margin-right: 1em;
 }
 
 #sick form .given .steps {
@@ -250,6 +241,14 @@ p{
 
 #sick table tr:hover {
     background-color: lightblue;
+}
+
+#sick .form .noticeMe {
+    font-family: sans-serif;
+    text-shadow: none;
+    margin-top: 2em;
+    color: black;
+    font-weight: bold;
 }
 
 /* Submit */
