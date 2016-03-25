@@ -382,16 +382,22 @@ p{
     text-align: center;
 }
 
-#grades .GradesReleased a:hover {
+#grades .toggle .label:hover {
     color: lightcoral;
 }
 
-#grades .GradesReleased .grade {
+#grades .GradesReleased .grade, #grades .NotGraded .grade {
+    margin-left: .5em;
+    text-decoration: none;
     color: darkorchid;
 }
 
-#grades .GradesReleased .grade .avggrade {
-    color: darksalmon;
+#grades .GradesReleased .avggrade, #grades .NotGraded .avggrade {
+    color: seagreen;
+}
+
+#grades .label {
+    color: blue;
 }
 
 #grades .comments {
