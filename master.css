@@ -92,8 +92,8 @@ p{
 
 /* ids*/
 #adminColumn{
-  position: fixed;
-  background-image: url("atg.png");
+  position: absolute;
+  background-image: url("awaldro1.w3.uvm.edu/cs142/assignment4/atg.png");
   background-size: 500px 500px;
   background-repeat: no-repeat;
   z-index: 100;
