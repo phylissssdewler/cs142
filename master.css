@@ -2,7 +2,6 @@
 -fonts 
 -responsive content
 -eat cake with a bus stop fork
-
 */
 
 /* general tags*/
@@ -17,6 +16,7 @@ body{
     max-width: 100%;
     margin: auto;
 }
+
 header{
   font-size: 3em;
   text-align: center;
@@ -32,6 +32,7 @@ header h1, h1 a, h1{
 #classtitle {
    width: 40%;
    font-size: 35pt;
+   margin: auto;
 }
 
 #classtitle .url{
@@ -80,7 +81,7 @@ h3{
 }
 
 #mainMenu a:hover{
-  text-shadowC: 1.5px 1px 1px black;
+  text-shadow: 1.5px 1px 1px black;
 }
 
 p{
@@ -129,13 +130,13 @@ p{
 
  #studentInfo{
    position:absolute;
-   top:0;
-   right:0;
+   top: 1em;
+   right: 1em;
 }
 #studentName, #classRank, studentGrade, #greenDot{
   display: block;
-  
 }
+
 #greenDot {
   margin-right:2em;
 }
