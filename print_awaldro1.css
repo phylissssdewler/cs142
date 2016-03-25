@@ -1,0 +1,378 @@
+/* TO DO:
+-fonts 
+-responsive content
+-eat cake with a bus stop fork
+
+*/
+
+/* general tags*/
+
+
+body{
+    max-width: 100%;
+    margin: auto;
+}
+header{
+  font-size: 3em;
+  text-align: center;
+}
+
+
+header h1, h1 a, h1{
+  font-family: serif;
+  color: black;
+
+}
+
+h2{
+  font-family: serif;
+  color: black;
+  
+}
+
+h3{
+  font-family: serif;
+  color: black;
+ 
+}
+
+#classtitle {
+   width: 40%;
+   font-size: 35pt;
+}
+
+#classtitle .url{
+    float: left;
+    clear: left;
+}
+
+#mainMenu {
+  float: left;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 4em;
+  margin-top: 2em;
+}
+
+#mainMenu ol{
+  list-style-type: none;
+  display: inline;
+  margin-left: -120px;
+  
+}
+
+#mainMenu li{
+  display: inline;
+  padding: 1.5em;
+}
+
+#mainMenu a{
+  font-family:"Broadway";
+  color: hotpink;
+  text-shadow: 1.5px 1px 1px blue;
+  
+}
+
+#mainMenu a:hover{
+  text-shadowC: 1.5px 1px 1px black;
+}
+
+p{
+  padding-bottom: 1em;
+}
+
+
+/* ids*/
+
+
+
+ #studentInfo{
+   position:absolute;
+   top:1em;
+   right:1em;
+}
+#studentName, #classRank, #studentGrade, #greenDot{
+  display: block;
+  
+}
+
+#classtitle{
+    margin: auto;
+}
+#greenDot {
+  margin-right:2em;
+}
+
+#mainContent{
+  clear:both;
+  margin: 5%;
+}
+
+#mainContent h2{
+  padding-top: 1em;
+}
+
+
+.column{
+
+  padding-right: 4em;
+  padding-left: 4em;
+}
+
+#calendar h2 a{
+  font-family: serif;
+  color: black;
+  
+}
+
+#vcalendar {
+   border-collapse: collapse;
+   margin: auto;
+
+}
+
+
+td{
+  border: 1px solid black;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 1pt;
+}
+/* 
+    Created on : Feb 26, 2016, 2:04:03 PM
+    Author     : SamTully
+*/
+
+tr.monthHeader{
+    border-top: 10px solid;
+    border-color: rgba(0,0,0,.4);
+    font-family: sans-serif;
+    letter-spacing: 1pt;
+}
+
+thead{
+    font-family: sans-serif;
+    letter-spacing: 1pt;
+}
+
+th{
+    font-family: sans-serif;
+    letter-spacing: 1pt;
+}
+/*sick page */
+#sick .form h2 {
+    text-align: center;
+}
+
+#sick .form {
+    margin: auto;
+    width: 75%;
+}
+
+#sick form {
+    background-color: rgba( 255, 255, 255, .4 );
+    box-shadow: 0px 0px 5px 2px black;
+    font-family: sans-serif;
+    border-color: black;
+}
+
+#sick form .given input {
+    margin-left: .5em;
+}
+
+#sick form #txtComments {
+    margin-top: 1em;
+}
+
+#sick form .radio label {
+    margin-left: 5%;
+}
+
+#sick form fieldset {
+    padding: 1em;
+    border: black 2px solid;
+}
+
+#sick form .radio .steps {
+    margin-right: -.25em;
+}
+
+#sick form .given .steps {
+    margin-right: .25em;
+}
+
+#sick .attendanceRecord {
+    text-align: center;
+}
+
+#sick table {
+    background-color: rgba( 255, 255, 255, .4 );
+    box-shadow: 0px 0px 5px 2px black;
+    font-family: serif;
+    padding: .5em 0em;
+    width: 75%;
+    margin: auto;
+}
+
+#sick table tr {
+    margin: .5em;
+    text-align: center;
+}
+
+#sick table td {
+    border: 1pt solid black;
+    padding: .5em;
+}
+
+#sick table th {
+    font-size: 20pt;
+    text-decoration: underline;
+    margin: .5em 0em;
+}
+
+
+/* Submit */
+#submit {
+    font-family: sans-serif;
+}
+
+#submit form select {
+    margin-right: 1em;
+}
+
+#submit .step {
+    margin: 1em 0em;
+    padding: 1em;
+    max-width: 50%;
+}
+
+#submit .step .steps {
+    margin-bottom: .5em;
+}
+
+#submit ul li {
+    margin-top: .5em;
+    list-style-type: katakana;
+}
+
+/* Grades */
+#grades #mainContent {
+    padding: 4em;
+    margin: 2em;
+}
+
+#grades #grade {
+    padding: .5em;
+    margin: .5em 5%;
+    float: left;
+}
+
+#grades .p {
+    padding: .5em;
+    margin: .5em;
+    float: left;
+    clear: left;
+}
+
+#grades #rank {
+    float: right;
+    padding: .5em;
+    margin: .5em; 
+}
+
+#grades #mainContent .attendance {
+    float: right;
+    clear: right;
+    margin: .5em;
+}
+
+#grades #mainContent .attendance span {
+    clear: none;
+    float: none;
+    margin: 0;
+}
+
+#grades .website, #grades .tools_admin {
+    clear: both;
+}
+
+#grades .GradesReleased, #grades .NotGraded {
+    margin-top: 4em;
+    padding: .5em;
+    border: 1pt solid black;
+
+    width: 40%;
+    color: black;
+    text-align: center;
+}
+
+#grades .GradesReleased a:hover {
+    color: black;
+}
+
+#grades .GradesReleased .grade {
+    color: darkorchid;
+}
+
+#grades .GradesReleased .grade .avggrade {
+    color: darksalmon;
+}
+
+#grades .comments {
+    padding: 0;
+    margin-top: 0;
+}
+
+#assignments #mainContent ol {
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+
+#assignments ol li{
+    margin-top: .5em;
+    list-style-type: katakana; 
+    font-family: sans-serif;
+}
+
+
+#lectures #mainContent ol {
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  
+}
+
+#lectures ol li{
+    margin-top: .5em;
+    list-style-type: katakana; 
+    font-family: sans-serif;
+}
+
+#lectures .displayDate{
+    width: 110px;
+    margin-right: 10px;
+    float: left;
+}
+
+#otherMedia {
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+#media ol li{
+    margin-top: .5em;
+    list-style-type: katakana; 
+}
+
+#otherMedia img{
+    width: 20px;
+    height: 20px;
+}
+
+
