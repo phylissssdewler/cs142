@@ -157,6 +157,38 @@ p{
   padding-left: 4em;
 }
 
+/* calendar */
+#vcalendar {
+   border-collapse: collapse;
+   margin: auto;
+   background-color: rgba( 255, 255, 255, .6 );
+   box-shadow: 0px 0px 5px 2px black;
+}
+
+#schedule td{
+  border: 1px solid black;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 1pt;
+}
+
+#schedule tr.monthHeader{
+    border-top: 10px solid;
+    border-color: rgba(0,0,0,.4);
+    font-family: sans-serif;
+    letter-spacing: 1pt;
+}
+
+#schedule thead{
+    font-family: sans-serif;
+    letter-spacing: 1pt;
+}
+
+#schedule th{
+    font-family: sans-serif;
+    letter-spacing: 1pt;
+}
+
 /*sick page */
 #sick .form h2 {
     text-align: center;
