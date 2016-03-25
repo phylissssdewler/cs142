@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="Change this" content="Yes">
+        <meta name="Bmckalla" content="Yes">
         <title>Description of site</title>
         <meta name="description" content="Defying the establishment"/>
     </head>
@@ -17,7 +17,6 @@ and open the template in the editor.
                 Defying the establishment
             </h1>
         </header>
-    <body>
         <p>For our project, we chose to incorporate elements of a movement know as</p>
         <h2 style="text-align: center; font-size: 15pt; color: pink; 
             font-family: 'Broadway'; text-shadow: 1pt black;">VAPORWAVE</h2>
