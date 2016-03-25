@@ -2,13 +2,13 @@
 -fonts 
 -responsive content
 -eat cake with a bus stop fork
-
 */
 
 /* general tags*/
 
 html{
     cursor: url(gc.png), auto;
+    font-family: sans-serif;
 }
 body{
     background-image: url("newbg2.png");
@@ -17,69 +17,72 @@ body{
     max-width: 100%;
     margin: auto;
 }
+
 header{
   font-size: 3em;
-}
-
-header a:nth-of-type(1){
-  margin-left: 30%;
-  float: left;
-  clear: left;
-}
-header a:nth-of-type(2){
-  font-size: .3em;
-  float:left;
-  margin-left: 23%;
-
+  text-align: center;
+  margin: 1em;
 }
 
 header h1, h1 a, h1{
   font-family:"Broadway";
   color: hotpink;
   text-shadow: 2px 2px 2px blue;
+}
 
+#classtitle {
+   width: 40%;
+   font-size: 35pt;
+   margin: auto;
+}
+
+#classtitle .url{
+    float: left;
+    clear: left;
 }
 
 h2{
   font-family:"Broadway";
   color: hotpink;
   text-shadow: 2px 2px 2px blue;
-  
 }
 
 h3{
   font-family:"Broadway";
-color: hotpink;
-text-shadow: 2px 2px 2px blue;
+  color: hotpink;
+  text-shadow: 2px 2px 2px blue;
 }
 
 #mainMenu {
-  float: left;
+  clear: both;
   text-align: center;
-  width: 100%;
-  margin-bottom: 4em;
+  width: 80%;
+  margin: 0 auto 4em auto;
+  padding-top: 2em;
 }
+
 #mainMenu ol{
   list-style-type: none;
-  display: inline;
-  margin-left: -120px;
-  
+  display: table;
 }
 
 #mainMenu li{
-  display: inline;
-  padding: 1.5em;
+    padding: .5em;
+    vertical-align: middle;
+    display: table-cell;
+    width: 5%;
+    background-color: rgba( 255, 255, 255, .4 );
+    border: black solid 1px;
 }
 
 #mainMenu a{
   font-family:"Broadway";
   color: hotpink;
   text-shadow: 1.5px 1px 1px blue;
-  
 }
 
 #mainMenu a:hover{
-  text-shadowC: 1.5px 1px 1px black;
+  text-shadow: 1.5px 1px 1px black;
 }
 
 p{
@@ -88,7 +91,6 @@ p{
 
 
 /* ids*/
-
 #adminColumn{
   position: fixed;
   background-image: url("atg.png");
@@ -99,6 +101,7 @@ p{
   height: 1000px;
   right: 0;
   margin-right: -300px;
+  top: 200px;
 }
 
 #adminColumn:hover{
@@ -127,15 +130,15 @@ p{
   display: none;
 }
 
- #studentInfo{
+#studentInfo{
    position:absolute;
-   top:0;
-   right:0;
+   top: 1em;
+   right: 1em;
 }
 #studentName, #classRank, studentGrade, #greenDot{
   display: block;
-  
 }
+
 #greenDot {
   margin-right:2em;
 }
@@ -150,9 +153,299 @@ p{
 }
 
 
-.column{
-  background-color: rgba( 255, 255, 255, .4 );
+
+/* assignments + lectures + resources*/
+#assignments .AssignmentsLink, #lectures .LecturesLink, #otherMedia ol  {
+    list-style-type: katakana;
+}
+
+#assignments .AssignmentsLink li, #lectures .LecturesLink li, #otherMedia ol li {
+    margin-bottom: 2em;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#assignments .AssignmentsLink a:hover, #lectures .LecturesLink a:hover, #otherMedia ol li a:hover {
+    color: lightsteelblue;
+}
+
+#otherMedia ol li figure img {
+    height: 50px;
+    width: 50px;
+}
+#assignments #mainContent ol{
+  background-color: rgba( 255, 255, 255, .5 );
   box-shadow: 0px 0px 5px 2px black;
   padding-right: 4em;
   padding-left: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+#lectures #mainContent ol{
+  background-color: rgba( 255, 255, 255, .5 );
+  box-shadow: 0px 0px 5px 2px black;
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  
+}
+
+#media #mainContent ol{
+  background-color: rgba( 255, 255, 255, .5 );
+  box-shadow: 0px 0px 5px 2px black;
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+} 
+
+
+#syllabus #mainContent {
+  background-color: rgba( 255, 255, 255, .5 );
+  box-shadow: 0px 0px 5px 2px black;
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  font-family: sans-serif;
+  font-size: 16px;
+    
+}
+
+#syllabus #mainContent li{
+    list-style-type: katakana;    
+}
+
+#syllabus #mainContent figure{
+    display: none;
+}
+
+/* calendar */
+#vcalendar {
+   border-collapse: collapse;
+   margin: auto;
+   background-color: rgba( 255, 255, 255, .6 );
+   box-shadow: 0px 0px 5px 2px black;
+}
+
+#vcalendar td{
+  border: 1px solid black;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 1pt;
+}
+
+#vcalendar tr .monthHeader {
+    border-top: 10px solid;
+    border-color: rgba(0,0,0,.4);
+    font-family: sans-serif;
+    letter-spacing: 1pt;
+}
+
+#vcalendar thead{
+    font-family: sans-serif;
+    letter-spacing: 1pt;
+}
+
+#vcalendar th{
+    font-family: sans-serif;
+    letter-spacing: 1pt;
+}
+
+/*sick page */
+#sick .form h2 {
+    text-align: center;
+}
+
+#sick .form {
+    margin: auto;
+    width: 75%;
+}
+
+#sick form {
+    background-color: rgba( 255, 255, 255, .4 );
+    box-shadow: 0px 0px 5px 2px black;
+    font-family: sans-serif;
+    border-color: black;
+}
+
+#sick form .given input {
+    margin-left: .5em;
+}
+
+#sick form #txtComments {
+    margin-top: 1em;
+}
+
+#sick form .radio label {
+    margin-left: 5%;
+}
+
+#sick form fieldset {
+    padding: 1em;
+    border: black 2px solid;
+}
+
+#sick form .radio .steps {
+    margin-right: -.25em;
+    float: left;
+    margin-bottom: 1em;
+}
+
+#sick form .radio .step label:nth-of-type(1) {
+    clear: left;
+}
+
+#sick form .radio label {
+    float: left;
+    margin-right: 1em;
+}
+
+#sick form .given .steps {
+    margin-right: .25em;
+}
+
+#sick .attendanceRecord {
+    text-align: center;
+}
+
+#sick table {
+    background-color: rgba( 255, 255, 255, .4 );
+    box-shadow: 0px 0px 5px 2px black;
+    font-family: "Broadway";
+    padding: .5em 0em;
+    width: 75%;
+    margin: auto;
+}
+
+#sick table tr {
+    margin: .5em;
+    text-align: center;
+}
+
+#sick table td {
+    border: 1pt solid black;
+    padding: .5em;
+}
+
+#sick table th {
+    font-size: 20pt;
+    text-decoration: underline;
+    margin: .5em 0em;
+}
+
+#sick table tr:hover {
+    background-color: lightblue;
+}
+
+#sick .form .noticeMe {
+    font-family: sans-serif;
+    text-shadow: none;
+    margin-top: 2em;
+    color: black;
+    font-weight: bold;
+}
+
+/* Submit */
+#submit {
+    font-family: sans-serif;
+}
+
+#submit form select {
+    margin-right: 1em;
+}
+
+#submit .step {
+    margin: 1em 0em;
+    background-color: rgba( 255, 255, 255, .4 );
+    box-shadow: 0px 0px 5px 2px black;
+    padding: 1em;
+    max-width: 50%;
+}
+
+#submit .step .steps {
+    margin-bottom: .5em;
+}
+
+#submit ul li {
+    margin-top: .5em;
+    list-style-type: katakana;
+}
+
+/* Grades */
+#grades #mainContent {
+    background-color: rgba( 255, 255, 255, .4 );
+    box-shadow: 0px 0px 5px 2px black;
+    padding: 4em;
+    margin: 2em;
+}
+
+#grades #grade {
+    padding: .5em;
+    margin: .5em 5%;
+    float: left;
+}
+
+#grades .p {
+    padding: .5em;
+    margin: .5em;
+    float: left;
+    clear: left;
+}
+
+#grades #rank {
+    float: right;
+    padding: .5em;
+    margin: .5em; 
+}
+
+#grades #mainContent .attendance {
+    float: right;
+    clear: right;
+    margin: .5em;
+}
+
+#grades #mainContent .attendance span {
+    clear: none;
+    float: none;
+    margin: 0;
+}
+
+#grades .website, #grades .tools_admin {
+    clear: both;
+}
+
+#grades .GradesReleased, #grades .NotGraded {
+    margin-top: 4em;
+    padding: .5em;
+    border: 1pt solid black;
+    box-shadow: 0px 0px 1px 1px black;
+    width: 40%;
+    color: blue;
+    text-align: center;
+}
+
+#grades .toggle .label:hover {
+    color: lightcoral;
+}
+
+#grades .GradesReleased .grade, #grades .NotGraded .grade {
+    margin-left: .5em;
+    text-decoration: none;
+    color: darkorchid;
+}
+
+#grades .GradesReleased .avggrade, #grades .NotGraded .avggrade {
+    color: seagreen;
+}
+
+#grades .label {
+    color: blue;
+}
+
+#grades .comments {
+    padding: 0;
+    margin-top: 0;
 }
