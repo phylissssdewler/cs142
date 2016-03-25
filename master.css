@@ -8,6 +8,7 @@
 
 html{
     cursor: url(gc.png), auto;
+    font-family: sans-serif;
 }
 body{
     background-image: url("newbg2.png");
