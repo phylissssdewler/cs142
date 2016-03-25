@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="Bmckalla" content="Yes">
+        <meta name="Change this" content="Yes">
         <title>Description of site</title>
         <meta name="description" content="Defying the establishment"/>
     </head>
