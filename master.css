@@ -128,7 +128,7 @@ p{
   display: none;
 }
 
- #studentInfo{
+#studentInfo{
    position:absolute;
    top: 1em;
    right: 1em;
@@ -150,12 +150,31 @@ p{
   padding-top: 1em;
 }
 
-
 .column{
   background-color: rgba( 255, 255, 255, .4 );
   box-shadow: 0px 0px 5px 2px black;
   padding-right: 4em;
   padding-left: 4em;
+}
+
+/* assignments + lectures + resources*/
+#assignments .AssignmentsLink, #lectures .LecturesLink, #otherMedia ol  {
+    list-style-type: katakana;
+}
+
+#assignments .AssignmentsLink li, #lectures .LecturesLink li, #otherMedia ol li {
+    margin-bottom: 2em;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#assignments .AssignmentsLink a:hover, #lectures .LecturesLink a:hover, #otherMedia ol li a:hover {
+    color: lightsteelblue;
+}
+
+#otherMedia ol li figure img {
+    height: 50px;
+    width: 50px;
 }
 
 /* calendar */
